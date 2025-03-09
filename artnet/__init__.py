@@ -9,3 +9,4 @@ __all__ = [
 
 from .artnet import ART_NET_PORT, DEFAULT_FPS, ArtNet, ArtNetCallback, TriggerKey
 from .helper import OpCode
+from .client import ArtNetClient

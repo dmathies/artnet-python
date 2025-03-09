@@ -1,0 +1,198 @@
+[
+  {
+    "id": 50,
+    "model": 51966,
+    "category": 769,
+    "sw_version": 1985229328,
+    "DMX Sub Device Count": 0,
+    "sensor_count": 0,
+    "parameters": {
+      "RdmParamLampHours": 1,
+      "RdmParamManufacturerLabel": "Cafe Manu Label",
+      "RdmParamDeviceLabel": "Cafe Device Label",
+      "RdmParamDeviceModelDescription": "Cafe Model Description",
+      "RdmParamDmxPersonality": 2,
+      "RdmParamDmxStartAddress": 1,
+      "RdmParamDeviceHours": 1,
+      "RdmParamLampStrikes": 1,
+      "RdmParamLampState": 1,
+      "RdmParamCurve": 0,
+      "RdmParamFactoryDefaults": 1,
+      "RdmParamModulationFrequency": [
+        1,
+        1
+      ],
+      "RdmParamLanguageCapabilities": [
+        "EN"
+      ],
+      "RdmParamLanguage": "EN",
+      "RdmParamSoftwareVersionLabel": "Cafe Software Version",
+      "RdmParamBootSoftwareVersionId": 4660,
+      "RdmParamBootSoftwareVersionLabel": "Cafe Boot Software V"
+    },
+    "custom_parameters": [
+      ],
+    "dmx_personalities": [
+      {
+        "slots": 2,
+        "name": "Dmx Pers Desc 1",
+        "slot_descriptions": [
+          {
+            "offset": 0,
+            "type": 0,
+            "label_id": 1,
+            "label": "Dimmer"
+          },
+          {
+            "offset": 1,
+            "type": 0,
+            "label_id": 65535,
+            "label": "Frame Number"
+          }
+        ]
+      },
+      {
+        "slots": 4,
+        "name": "Dmx Pers Desc 2",
+        "slot_descriptions": [
+          {
+            "offset": 0,
+            "type": 0,
+            "label_id": 1,
+            "label": "Dimmer"
+          },
+          {
+            "offset": 1,
+            "type": 1,
+            "label_id": 1,
+            "label": "Dimmer"
+          },
+          {
+            "offset": 2,
+            "type": 0,
+            "label_id": 65535,
+            "label": "Frame Number"
+          },
+          {
+            "offset": 3,
+            "type": 1,
+            "label_id": 65535,
+            "label": "Frame Number"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "model": 48879,
+    "category": 769,
+    "sw_version": 19088743,
+    "DMX Sub Device Count": 0,
+    "sensor_count": 0,
+    "parameters": {
+      "RdmParamLampHours": 12,
+      "RdmParamManufacturerLabel": "Beef Manu Label",
+      "RdmParamDeviceLabel": "Beef Dev Label",
+      "RdmParamDeviceModelDescription": "Beef Model Description",
+      "RdmParamDmxPersonality": 1,
+      "RdmParamDeviceHours": 1,
+      "RdmParamLampStrikes": 1,
+      "RdmParamLampState": 0,
+      "RdmParamCurve": 0,
+      "RdmParamFactoryDefaults": 1,
+      "RdmParamModulationFrequency": [
+        1,
+        1
+      ],
+      "RdmParamDmxStartAddress": 1,
+      "RdmParamLanguageCapabilities": [
+        "EN"
+      ],
+      "RdmParamLanguage": "EN",
+      "RdmParamSoftwareVersionLabel": "Beef Software Version",
+      "RdmParamBootSoftwareVersionId": 4660,
+      "RdmParamBootSoftwareVersionLabel": "Beef Boot Software V"
+    },
+    "custom_parameters": [
+        {
+            "id": 32768,
+            "size": 2,
+            "data_type": 5,
+            "command_classes": 3,
+            "type": 0,
+            "unit": 0,
+            "prefix": 0,
+            "min_value": 0,
+            "max_value": 22,
+            "default_value": 0,
+            "name": "PID Example1",
+            "value": 0
+        },
+        {
+            "id": 32769,
+            "size": 2,
+            "data_type": 5,
+            "command_classes": 3,
+            "type": 0,
+            "unit": 0,
+            "prefix": 0,
+            "min_value": 1,
+            "max_value": 10,
+            "default_value": 1,
+            "name": "PID Example2",
+            "value": 1
+        }
+    ],
+    "dmx_personalities": [
+      {
+        "slots": 2,
+        "name": "Dmx Pers Desc 1",
+        "slot_descriptions": [
+          {
+            "offset": 0,
+            "type": 0,
+            "label_id": 1,
+            "label": "Dimmer"
+          },
+          {
+            "offset": 1,
+            "type": 0,
+            "label_id": 65535,
+            "name": "Frame Number"
+          }
+        ]
+      },
+      {
+        "slots": 4,
+        "name": "Dmx Pers Desc 2",
+        "slot_descriptions": [
+          {
+            "offset": 0,
+            "type": 0,
+            "label_id": 1,
+            "label": "Dimmer"
+          },
+          {
+            "offset": 1,
+            "type": 1,
+            "label_id": 1,
+            "label": "Dimmer"
+          },
+          {
+            "offset": 2,
+            "type": 0,
+            "label_id": 65535,
+            "name": "Frame Number"
+          },
+          {
+            "offset": 3,
+            "type": 1,
+            "label_id": 65535,
+            "name": "Frame Number"
+          }
+        ]
+      }
+    ]
+  }
+]

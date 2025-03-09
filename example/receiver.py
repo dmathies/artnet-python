@@ -19,7 +19,7 @@ def main():
     x = Thread(target=artnet.listen, kwargs=dict(timeout=None))
     x.start()
 
-    artnet.send_dmx(1, 0, bytearray([0] * 512))
+    #artnet.send_dmx(1, 0, bytearray([0] * 512))
 
     x.join()
 
